@@ -7,14 +7,15 @@ License:	Free
 Group:		X11/Amusements
 Source0:	http://www.lucidus.uklinux.net/metathemes/Gorilla.metatheme.tar.gz
 URL:		http://sunshineinabag.co.uk/
-BuildRequires:	tar
 BuildRequires:	bzip2
+BuildRequires:	tar
 BuildRequires:	xmms-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Requires:	xmms-skin-XimianSouth
 Requires:	gtk-theme-ThinIce
 Requires:	nautilus-theme-gorilla
 Requires:	sawfish-theme-gorilla
+Requires:	xmms-skin-XimianSouth
+BuildArch:	noarch
 
 %define		_prefix		/usr/X11R6
 %define		_xmmsskinsdir	%(xmms-config --data-dir)/Skins
