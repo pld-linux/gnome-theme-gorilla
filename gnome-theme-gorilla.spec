@@ -22,11 +22,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_xmmsskinsdir	%{xmms_datadir}/Skins
 
 %description
-Gorilla theme for GTK (ThinIce), Nautilus, Sawfish and XMMS (Ximian
+Gorilla theme for GTK+ (ThinIce), Nautilus, Sawfish and XMMS (Ximian
 South).
 
 %description -l pl
-Motyw gorilla dla GTK (ThinIce), Nautilusa, Sawfisza i XMMS-a (Ximian
+Motyw gorilla dla GTK+ (ThinIce), Nautilusa, Sawfisza i XMMS-a (Ximian
 South).
 
 %package -n xmms-skin-XimianSouth
