@@ -2,7 +2,7 @@ Summary:	Gorilla theme
 Summary(pl):	Motyw gorilla
 Name:		gnome-theme-gorilla
 Version:	1.0
-Release:	1
+Release:	2
 License:	Free
 Group:		X11/Amusements
 Source0:	http://www.lucidus.uklinux.net/metathemes/Gorilla.metatheme.tar.gz
@@ -10,15 +10,16 @@ Source0:	http://www.lucidus.uklinux.net/metathemes/Gorilla.metatheme.tar.gz
 URL:		http://sunshineinabag.co.uk/
 BuildRequires:	bzip2
 BuildRequires:	tar
+BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	gtk-theme-ThinIce
 Requires:	nautilus-theme-gorilla
 Requires:	sawfish-theme-gorilla
 Requires:	xmms-skin-XimianSouth
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_xmmsskinsdir	%(xmms-config --data-dir)/Skins
+%define		_xmmsskinsdir	%{xmms_datadir}/Skins
 
 %description
 Gorilla theme for GTK (ThinIce), Nautilus, Sawfish and XMMS (Ximian
@@ -32,8 +33,8 @@ South).
 Summary:	Ximian South skin
 Summary(pl):	Skórka Ximian South
 Group:		X11/Amusements
-Requires:	tar
 Requires:	bzip2
+Requires:	tar
 Requires:	xmms
 
 %description -n xmms-skin-XimianSouth
