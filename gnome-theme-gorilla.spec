@@ -17,7 +17,6 @@ Requires:	sawfish-theme-gorilla
 Requires:	xmms-skin-XimianSouth
 BuildArch:	noarch
 
-%define		_prefix		/usr/X11R6
 %define		_xmmsskinsdir	%(xmms-config --data-dir)/Skins
 
 %description
