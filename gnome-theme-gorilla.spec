@@ -6,6 +6,7 @@ Release:	1
 License:	Free
 Group:		X11/Amusements
 Source0:	http://www.lucidus.uklinux.net/metathemes/Gorilla.metatheme.tar.gz
+# Source0-md5:	ae618bdeb8a6061aa1a6dbb3c87e20fa
 URL:		http://sunshineinabag.co.uk/
 BuildRequires:	bzip2
 BuildRequires:	tar
