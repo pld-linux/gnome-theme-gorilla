@@ -1,5 +1,5 @@
 Summary:	Gorilla theme
-Summary(pl):	Temat gorilla
+Summary(pl):	Motyw gorilla
 Name:		gnome-theme-gorilla
 Version:	1.0
 Release:	1
@@ -24,7 +24,7 @@ Gorilla theme for GTK (ThinIce), Nautilus, Sawfish and XMMS (Ximian
 South).
 
 %description -l pl
-Temat gorilla dla GTK (ThinIce), Nautilusa, Sawfisza i XMMS-a (Ximian
+Motyw gorilla dla GTK (ThinIce), Nautilusa, Sawfisza i XMMS-a (Ximian
 South).
 
 %package -n xmms-skin-XimianSouth
@@ -44,7 +44,7 @@ Skórka Ximian South. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla.
 
 %package -n nautilus-theme-gorilla
 Summary:	Gorilla theme
-Summary(pl):	Temat gorilla
+Summary(pl):	Motyw gorilla
 Group:		X11/Amusements
 Requires:	nautilus
 
@@ -53,12 +53,12 @@ Gorilla theme. You may be interested in gnome-theme-gorilla package.
 Note: It is highly cpu intensive.
 
 %description -n nautilus-theme-gorilla -l pl
-Temat gorilla. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla. Uwaga:
+Motyw gorilla. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla. Uwaga:
 Wymaga szybkiego procesora.
 
 %package -n sawfish-theme-gorilla
 Summary:	Gorilla theme
-Summary(pl):	Temat gorilla
+Summary(pl):	Motyw gorilla
 Group:		X11/Amusements
 Requires:	sawfish
 
@@ -66,7 +66,7 @@ Requires:	sawfish
 Gorilla theme. You may be interested in gnome-theme-gorilla package.
 
 %description -n sawfish-theme-gorilla -l pl
-Temat gorilla. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla.
+Motyw gorilla. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla.
 
 %prep
 %setup -q -n Gorilla
