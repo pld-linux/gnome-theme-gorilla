@@ -1,5 +1,5 @@
 Summary:	Gorilla theme
-Summary(pl):	Motyw gorilla
+Summary(pl.UTF-8):   Motyw gorilla
 Name:		gnome-theme-gorilla
 Version:	1.0
 Release:	2
@@ -25,13 +25,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Gorilla theme for GTK+ (ThinIce), Nautilus, Sawfish and XMMS (Ximian
 South).
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw gorilla dla GTK+ (ThinIce), Nautilusa, Sawfisza i XMMS-a (Ximian
 South).
 
 %package -n xmms-skin-XimianSouth
 Summary:	Ximian South skin
-Summary(pl):	Skórka Ximian South
+Summary(pl.UTF-8):   SkÃ³rka Ximian South
 Group:		X11/Amusements
 Requires:	bzip2
 Requires:	tar
@@ -41,12 +41,12 @@ Requires:	xmms
 Ximian South skin. You may be interested in gnome-theme-gorilla
 package.
 
-%description -n xmms-skin-XimianSouth -l pl
-Skórka Ximian South. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla.
+%description -n xmms-skin-XimianSouth -l pl.UTF-8
+SkÃ³rka Ximian South. MoÅ¼na teÅ¼ sprÃ³bowaÄ‡ pakietu gnome-theme-gorilla.
 
 %package -n nautilus-theme-gorilla
 Summary:	Gorilla theme
-Summary(pl):	Motyw gorilla
+Summary(pl.UTF-8):   Motyw gorilla
 Group:		X11/Amusements
 Requires:	nautilus
 
@@ -54,21 +54,21 @@ Requires:	nautilus
 Gorilla theme. You may be interested in gnome-theme-gorilla package.
 Note: It is highly cpu intensive.
 
-%description -n nautilus-theme-gorilla -l pl
-Motyw gorilla. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla. Uwaga:
+%description -n nautilus-theme-gorilla -l pl.UTF-8
+Motyw gorilla. MoÅ¼na teÅ¼ sprÃ³bowaÄ‡ pakietu gnome-theme-gorilla. Uwaga:
 Wymaga szybkiego procesora.
 
 %package -n sawfish-theme-gorilla
 Summary:	Gorilla theme
-Summary(pl):	Motyw gorilla
+Summary(pl.UTF-8):   Motyw gorilla
 Group:		X11/Amusements
 Requires:	sawfish
 
 %description -n sawfish-theme-gorilla
 Gorilla theme. You may be interested in gnome-theme-gorilla package.
 
-%description -n sawfish-theme-gorilla -l pl
-Motyw gorilla. Mo¿na te¿ spróbowaæ pakietu gnome-theme-gorilla.
+%description -n sawfish-theme-gorilla -l pl.UTF-8
+Motyw gorilla. MoÅ¼na teÅ¼ sprÃ³bowaÄ‡ pakietu gnome-theme-gorilla.
 
 %prep
 %setup -q -n Gorilla
