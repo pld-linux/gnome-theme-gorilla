@@ -1,5 +1,5 @@
 Summary:	Gorilla theme
-Summary(pl.UTF-8):   Motyw gorilla
+Summary(pl.UTF-8):	Motyw gorilla
 Name:		gnome-theme-gorilla
 Version:	1.0
 Release:	2
@@ -31,7 +31,7 @@ South).
 
 %package -n xmms-skin-XimianSouth
 Summary:	Ximian South skin
-Summary(pl.UTF-8):   Skórka Ximian South
+Summary(pl.UTF-8):	Skórka Ximian South
 Group:		X11/Amusements
 Requires:	bzip2
 Requires:	tar
@@ -46,7 +46,7 @@ Skórka Ximian South. Można też spróbować pakietu gnome-theme-gorilla.
 
 %package -n nautilus-theme-gorilla
 Summary:	Gorilla theme
-Summary(pl.UTF-8):   Motyw gorilla
+Summary(pl.UTF-8):	Motyw gorilla
 Group:		X11/Amusements
 Requires:	nautilus
 
@@ -60,7 +60,7 @@ Wymaga szybkiego procesora.
 
 %package -n sawfish-theme-gorilla
 Summary:	Gorilla theme
-Summary(pl.UTF-8):   Motyw gorilla
+Summary(pl.UTF-8):	Motyw gorilla
 Group:		X11/Amusements
 Requires:	sawfish
 
